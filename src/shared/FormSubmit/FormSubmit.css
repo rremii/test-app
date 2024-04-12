@@ -1,0 +1,13 @@
+.form-submit {
+    width: 169px;
+    height: 55px;
+    /* UI Properties */
+    background: #00CC99 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #08070880;
+    border-radius: 30px;
+
+    text-align: center;
+    font: normal normal normal 25px/33px Test Söhne;
+    letter-spacing: 0px;
+    color: #FFF7FC;
+}

@@ -1,0 +1,32 @@
+@import "normalize.css/normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("src/assets/fonts/SF-Pro-Text-Regular.otf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "SF Pro";
+    src: url("src/assets/fonts/SF-Pro-Display-Black.ttf") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Test Söhne";
+    src: url("src/assets/fonts/TestShne.otf") format("opentype");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    width: 100vw;
+    height: 100vh;
+    background-color: #eaeaea;
+    position: relative;
+}
+

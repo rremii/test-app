@@ -1,0 +1,27 @@
+.cross {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 22px;
+    right: 62px;
+    cursor: pointer;
+}
+
+.cross span {
+    background-color: red;
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cross span:nth-of-type(1) {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.cross span:nth-of-type(2) {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}

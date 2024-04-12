@@ -1,0 +1,23 @@
+.sign-in-modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 375px;
+    pointer-events: none;
+    opacity: 0;
+    transition: .7s opacity;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    pointer-events: initial;
+    opacity: 1;
+}
