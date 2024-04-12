@@ -4,17 +4,17 @@
 
 @font-face {
     font-family: "SF Pro";
-    src: url("src/assets/fonts/SF-Pro-Text-Regular.otf") format("truetype");
+    src: url("./../../assets/fonts/SF-Pro-Text-Regular.otf") format("opentype");
     font-weight: normal;
 }
 @font-face {
     font-family: "SF Pro";
-    src: url("src/assets/fonts/SF-Pro-Display-Black.ttf") format("truetype");
+    src: url("./../../assets/fonts/SF-Pro-Display-Black.ttf") format("truetype");
     font-weight: bold;
 }
 @font-face {
     font-family: "Test Söhne";
-    src: url("src/assets/fonts/TestShne.otf") format("opentype");
+    src: url("./../../assets/fonts/TestShne.otf") format("opentype");
 }
 
 *{
